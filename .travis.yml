@@ -18,7 +18,7 @@ matrix:
     - rm -rf node_modules
 
 install:
-- bash ./bin/travis-install.sh
+- bash ./bin/ci-install.sh
 
 script:
 - bash ./bin/test.sh
