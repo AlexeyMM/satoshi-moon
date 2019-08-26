@@ -1,0 +1,21 @@
+{
+  "name": "contract",
+  "version": "1.0.0",
+  "description": "Truffle Box for a bare-minimum Truffle project (`truffle init`)",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -r truffle/cli test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "truffle": "5.0.26",
+    "bignumber.js": "9.0.0"
+  },
+  "devDependencies": {
+    "mocha": "6.1.4"
+  }
+}
